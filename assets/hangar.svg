@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">Mhalexmd — build, learn, take flight</title><desc id="desc">A custom midnight hangar with a pixel airplane, violet orbit lines, and mint runway lights.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151b30"/><stop offset="1" stop-color="#0b101b"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#26354a" stroke-opacity=".45"/></pattern></defs>
+<rect width="1200" height="350" rx="24" fill="url(#bg)"/><rect width="1200" height="350" rx="24" fill="url(#grid)"/>
+<g fill="none" stroke="#b79aff"><circle cx="998" cy="177" r="112" opacity=".24"/><circle cx="998" cy="177" r="145" stroke-dasharray="3 12" opacity=".4"/><path d="M824 177H1170M998 25V329" opacity=".2"/></g>
+<g transform="translate(998 166) scale(5)" fill="#ffcd75" shape-rendering="crispEdges"><path d="M-2-15H2V-4H5V0H10V5H3V10H6V13H-6V10H-3V5H-10V0H-5V-4H-2Z"/><path d="M-1-9H1V0H-1Z" fill="#0b101b"/><path d="M-1 15H1V21H-1Z" fill="#b79aff"/></g>
+<g font-family="Consolas,ui-monospace,monospace"><text x="60" y="67" fill="#8bf0d4" font-size="14" letter-spacing="4">PERSONAL HANGAR / 001</text><text x="56" y="163" fill="#f0f3fa" font-size="76" font-weight="bold" letter-spacing="-3">Mhalexmd<tspan fill="#b79aff">_</tspan></text><text x="60" y="211" fill="#b3c0d4" font-size="22">Build. Learn. Take flight.</text><path d="M60 250H700" stroke="#34435b"/><text x="60" y="289" fill="#8596af" font-size="13" letter-spacing="2">SOFTWARE × HARDWARE × CURIOSITY</text></g>
+<circle cx="1138" cy="45" r="5" fill="#8bf0d4"/><rect x="1" y="1" width="1198" height="348" rx="23" fill="none" stroke="#34435b"/>
+</svg>

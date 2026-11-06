@@ -1,59 +1,42 @@
-<!-- Replace every USERNAME with your GitHub username. Colors: A855F7 (purple), EC4899 (pink), 0D1117 (dark) -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,24&height=200&section=header&text=Hi%2C%20I'm%20YOUR%20NAME&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Student%20%C2%B7%20Developer%20%C2%B7%20Always%20Learning&descAlignY=58&descSize=18" width="100%"/>
+![Mhalexmd — build, learn, take flight](assets/hangar.svg)
 
-<a href="https://github.com/USERNAME">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=520&lines=Computer+Engineering+Student;Python+%26+Java+Developer;Building+compilers%2C+bots+%26+3D+printers;Learning+Backend+%2F+ML+for+remote+work" alt="Typing SVG"/>
-</a>
+**Computer engineering student · Python & Java · Curious by design**
+
+Building software, exploring hardware, and learning how things work beneath the surface.
+
+[Explore my repositories](https://github.com/Mhalexmd?tab=repositories) · [Start a conversation](https://github.com/Mhalexmd/Mhalexmd/issues)
 
 </div>
 
----
+## The workbench
 
-## 👋 About me
+I like projects that turn an idea into something you can run, use, or hold.
 
-- 🎓 Computer engineering student
-- 🔭 Currently working on: a compiler project, a home-built 3D printer, and a backend/ML roadmap
-- 🌱 Learning: backend development, machine learning, data science
-- 🤖 I build Telegram bots
-- 📫 Reach me: [email](mailto:YOUR_EMAIL) · [Telegram](https://t.me/YOUR_TELEGRAM)
+| Building | Exploring |
+| :--- | :--- |
+| A compiler — from source code to something executable | Backend development & software architecture |
+| Telegram bots — small tools for everyday tasks | Machine learning & data science |
+| A home-built 3D printer — code meets the physical world | The connection between hardware and software |
 
-## 🛠️ Tech stack
+**My toolkit** &nbsp; `Python` · `Java` · `SQL` · `Git` · `Linux`
 
-<div align="center">
+## Contribution interceptor
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=A855F7)
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=EC4899)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=A855F7)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=EC4899)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=A855F7)
-![Telegram](https://img.shields.io/badge/Telegram_Bots-0D1117?style=for-the-badge&logo=telegram&logoColor=EC4899)
+One year of contributions. One pixel pilot. Every active day is a target.
 
-</div>
+![Animated pixel airplane firing at active days in Mhalexmd's contribution calendar](assets/plane.svg)
 
-## 📊 GitHub stats
+<sub>The flight loops automatically. GitHub Actions refreshes the calendar every 6 hours; scheduled runs and image caching can delay updates. Hits only change this animation — your contributions stay intact.</sub>
 
-<div align="center">
+<details>
+<summary>Inside the cockpit</summary>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=EC4899&text_color=C9D1D9" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9" />
+The calendar comes from GitHub's contribution API. Activity intensity sets the target color; the plane stops at each week, fires at active days, and clears the board before its next run. This animated SVG plays directly in a GitHub README without scripts or an external image service.
 
-</div>
+The initial flight is marked **DEMO**. The first successful workflow run replaces it with real activity. See [setup and local preview](SETUP.md).
 
-## 🎮 Shoot my contributions!
+</details>
 
-An Atari-style airplane flies over my contribution graph and shoots down every day I coded. The more I commit, the more targets it gets.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/plane.svg" alt="Airplane shooting my contribution graph" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,24&height=100&section=footer" width="100%"/>
-</div>
+<div align="center"><sub>LEARN THE SYSTEM. BUILD SOMETHING. TAKE ANOTHER FLIGHT.</sub></div>
