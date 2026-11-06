@@ -25,7 +25,7 @@ function demoCalendar() {
 }
 function render(calendar,{user='Mhalexmd',demo=false,updated=new Date().toISOString()}={}) {
   if (!calendar.weeks?.length || calendar.weeks.length>54) throw new Error('Invalid calendar');
-  const step=15, left=51, top=120, lane=94, start=1.2, interval=.48;
+  const step=15, left=51, top=120, lane=104, start=1.2, interval=.48;
   const duration=start+calendar.weeks.length*interval+2;
   const t=n=>(n/duration).toFixed(7), px=w=>left+w*step+5.5;
   let grid='',bullets='',targets=0;
@@ -57,8 +57,8 @@ function render(calendar,{user='Mhalexmd',demo=false,updated=new Date().toISOStr
 <path d="M28 72H870" stroke="#26354a"/>
 ${[1,3,5].map(d=>`<text x="22" y="${top+d*step+9}" fill="#8596af" font-size="9">${['S','M','T','W','T','F','S'][d]}</text>`).join('')}
 ${grid}${bullets}
-<g><animateTransform attributeName="transform" type="translate" values="${positions.map(x=>`${x},${lane-8}`).join(';')}" keyTimes="${times.map(t).join(';')}" dur="${duration}s" repeatCount="indefinite"/>
-<path d="M-2-11H2V-3H5V1H10V5H3V8H6V11H-6V8H-3V5H-10V1H-5V-3H-2Z" fill="#ffcd75"/><path d="M-1-5H1V2H-1Z" fill="#0b101b"/><rect x="-1" y="-16" width="2" height="4" fill="#b79aff"><animate attributeName="opacity" values="1;.3;1" dur=".25s" repeatCount="indefinite"/></rect></g>
+<g><animateTransform attributeName="transform" type="translate" values="${positions.map(x=>`${x},${lane-11}`).join(';')}" keyTimes="${times.map(t).join(';')}" dur="${duration}s" repeatCount="indefinite"/>
+<g transform="rotate(180)" data-sprite="downward-plane"><path d="M-2-11H2V-3H5V1H10V5H3V8H6V11H-6V8H-3V5H-10V1H-5V-3H-2Z" fill="#ffcd75"/><path d="M-1-5H1V2H-1Z" fill="#0b101b"/><rect x="-1" y="13" width="2" height="4" fill="#b79aff"><animate attributeName="opacity" values="1;.3;1" dur=".25s" repeatCount="indefinite"/></rect></g></g>
 <path d="M28 239H870" stroke="#26354a"/><text x="28" y="263" fill="#8596af" font-size="10">${targets} TARGETS · AUTO LOOP · ${demo?'AWAITING FIRST LIVE SYNC':esc(updated.slice(0,16).replace('T',' '))+' UTC'}</text><text x="870" y="263" text-anchor="end" fill="#8596af" font-size="10">LOW ${colors.slice(1).map(c=>`<tspan fill="${c}">■</tspan>`).join(' ')} HIGH</text></g></svg>`;
 }
 async function main(){
