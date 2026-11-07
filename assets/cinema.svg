@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+<title id="title">Personal cinema symbols</title>
+<desc id="desc">An Inception spinning top, Harry Potter glasses and lightning scar, a Mr. Robot mask, The Fountain's tree within a celestial sphere, and Joey's penguin Hugsy with a pizza slice. No visible lettering.</desc>
+<defs>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#677c89"/><stop offset=".38" stop-color="#dce4e8"/><stop offset=".55" stop-color="#8195a1"/><stop offset="1" stop-color="#344752"/></linearGradient>
+  <radialGradient id="nebula"><stop stop-color="#ffc56b" stop-opacity=".18"/><stop offset="1" stop-color="#ffc56b" stop-opacity="0"/></radialGradient>
+  <radialGradient id="pool"><stop stop-color="#8bd5ad" stop-opacity=".06"/><stop offset="1" stop-color="#8bd5ad" stop-opacity="0"/></radialGradient>
+  <linearGradient id="gold"><stop stop-color="#b87539"/><stop offset=".5" stop-color="#ffe1a0"/><stop offset="1" stop-color="#c18d4a"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="1198" height="218" rx="18" fill="#090e13" stroke="#303b45"/>
+<path d="M30 30H48M30 30V48M1170 30H1152M1170 30V48M30 190H48M30 190V172M1170 190H1152M1170 190V172" fill="none" stroke="#43505a"/>
+<g stroke="#26323b" fill="none"><path d="M254 69V151M484 69V151M714 69V151M944 69V151"/><path d="M86 178H192M316 178H422M546 178H652M776 178H882M1006 178H1112" stroke-opacity=".55"/></g>
+<!-- Inception: the metal totem, balanced on its point. -->
+<g transform="translate(139 111)">
+  <circle r="84" fill="url(#pool)"/>
+  <ellipse cy="51" rx="36" ry="5" fill="#000" opacity=".6"/>
+  <g transform="rotate(-9)">
+    <path d="M-6-49Q0-53 6-49L5-11H-5Z" fill="url(#steel)"/>
+    <ellipse cy="-49" rx="6" ry="2.5" fill="#d3dce0"/>
+    <path d="M-5-13Q-13-8-37 3L0 47L37 3Q13-8 5-13Z" fill="url(#steel)" stroke="#8499a4" stroke-width="1.5"/>
+    <ellipse cy="3" rx="37" ry="10" fill="#354954" stroke="#c1cdd4" stroke-width="2"/>
+    <ellipse cy="1" rx="27" ry="5" fill="#728b99"/>
+    <path d="M0 14V42" stroke="#c7d6de" stroke-opacity=".6"/>
+  </g>
+  <path d="M-53 30Q-65 15-51 3M45 22Q58 8 47-5" fill="none" stroke="#718d9b" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+</g>
+<!-- Harry Potter: round spectacles and the scar. -->
+<g transform="translate(369 114)" fill="none" stroke="url(#gold)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10-65L-7-41H8L-4-18" stroke="#ffcf76"/>
+  <circle cx="-34" cy="12" r="27"/><circle cx="34" cy="12" r="27"/>
+  <path d="M-7 8Q0 1 7 8M-61 6L-72-1M61 6L72-1"/>
+  <path d="M-49-1L-39-9M20 1L30-7" stroke="#f5e0b6" stroke-width="1.5" opacity=".45"/>
+</g>
+<!-- Mr. Robot: an original, angular fsociety-inspired mask. -->
+<g transform="translate(599 110)">
+  <path d="M-44-47Q0-69 44-47L42 13Q34 49 0 61Q-34 49-42 13Z" fill="#d7d6cb" stroke="#939b99" stroke-width="1.5"/>
+  <path d="M-44-47Q0-69 44-47L43-34Q0-49-43-34Z" fill="#68766f" opacity=".25"/>
+  <g fill="#161e23">
+    <path d="M-35-23Q-23-35-9-24L-10-17Q-23-26-35-18ZM35-23Q23-35 9-24L10-17Q23-26 35-18Z"/>
+    <path d="M-34-10Q-23-18-11-8Q-23-4-34-10ZM34-10Q23-18 11-8Q23-4 34-10Z"/>
+    <path d="M-3-13L-9 9Q0 15 9 9L3-13L4 5H-4Z" opacity=".65"/>
+    <path d="M0 19Q-10 10-22 18Q-28 22-34 16Q-30 33-10 27L0 24L10 27Q30 33 34 16Q28 22 22 18Q10 10 0 19Z"/>
+    <path d="M-7 39L0 54L7 39L0 34Z"/>
+  </g>
+  <path d="M-23 33Q0 42 23 33" fill="none" stroke="#59635e" stroke-width="2"/>
+  <g fill="#b65f56" opacity=".3"><ellipse cx="-31" cy="10" rx="8" ry="5"/><ellipse cx="31" cy="10" rx="8" ry="5"/></g>
+</g>
+<!-- The Fountain: the living tree within the travelling sphere. -->
+<g transform="translate(829 109)">
+  <circle r="83" fill="url(#nebula)"/>
+  <circle r="66" fill="none" stroke="#b98c4c" stroke-opacity=".55"/>
+  <path d="M-54-31A63 63 0 0 1 38-49M51 35A63 63 0 0 1-43 46" fill="none" stroke="#ffe2a0" stroke-opacity=".55"/>
+  <g fill="#f8d99b"><circle cx="-40" cy="-31" r="1.5"/><circle cx="34" cy="-42" r="1"/><circle cx="47" cy="-12" r="1.3"/><circle cx="-46" cy="13" r="1"/><circle cx="-20" cy="-51" r="1"/><circle cx="24" cy="8" r="1"/><circle cx="-30" cy="-5" r="1.6"/><circle cx="12" cy="-48" r="1.5"/></g>
+  <path d="M-39 39Q0 24 39 39L29 46H-29Z" fill="#65533a"/>
+  <g fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-3 35Q5 14 0-7Q-8-23-4-41M2 14Q-15 3-24-13M1 0Q19-13 25-30" stroke-width="5"/>
+    <path d="M-2-17L-19-32L-28-34M-6-24L8-38L11-48M-22-11L-36-16M-15-1L-15-22M14-15L14-33M21-23L37-28M25-30L24-43M-4-40L-15-49M-3 29L-19 38M1 29L17 37" stroke-width="2"/>
+  </g>
+  <g fill="#d6b86e" opacity=".75"><circle cx="-27" cy="-34" r="3"/><circle cx="-15" cy="-46" r="3.5"/><circle cx="9" cy="-42" r="3"/><circle cx="23" cy="-39" r="3.5"/><circle cx="33" cy="-28" r="3"/><circle cx="-34" cy="-18" r="3.5"/><circle cx="-15" cy="-24" r="3"/></g>
+</g>
+<!-- Joey: Hugsy's red cap, orange scarf, goggles, and a slice. -->
+<g transform="translate(1059 112)">
+  <ellipse cy="44" rx="48" ry="7" fill="#000" opacity=".5"/>
+  <path d="M-38 0Q-59 15-48 31L-32 22M24 0Q45 13 36 30L22 22" fill="#637785"/>
+  <ellipse cx="-7" cy="14" rx="31" ry="39" fill="#748998"/>
+  <ellipse cx="-7" cy="19" rx="22" ry="29" fill="#e4dfcb"/>
+  <circle cx="-7" cy="-25" r="27" fill="#7c909b"/>
+  <path d="M-30-36Q-36-66-6-61Q17-62 19-36Z" fill="#b45049"/>
+  <path d="M-35-35Q-8-45 22-35" fill="none" stroke="#d57565" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="-8" cy="-64" r="6" fill="#ddd6bf"/>
+  <g stroke="#c9c6b6" stroke-width="3" fill="#17262c"><rect x="-29" y="-29" width="19" height="15" rx="6"/><rect x="-4" y="-29" width="19" height="15" rx="6"/><path d="M-10-23H-4"/></g>
+  <path d="M-14-10L1-10L-6-2Z" fill="#dda452"/>
+  <path d="M-29-1Q-8 7 16-1" fill="none" stroke="#d48a47" stroke-width="9" stroke-linecap="round"/>
+  <path d="M10 2L19 26" stroke="#d48a47" stroke-width="9"/>
+  <path d="M-27 48L-13 48M0 48H13" stroke="#d5a156" stroke-width="7" stroke-linecap="round"/>
+  <g transform="translate(41 22) rotate(13)"><path d="M-13-20Q1-27 15-20L1 20Z" fill="#e5bd6a" stroke="#ad763c" stroke-width="1.5"/><path d="M-13-20Q1-27 15-20" stroke="#ca8d4a" stroke-width="6" stroke-linecap="round"/><g fill="#b95649"><circle cy="-10" r="3"/><circle cx="-4" cy="1" r="3"/><circle cx="5" cy="-3" r="3"/></g></g>
+</g>
+</svg>

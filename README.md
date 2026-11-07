@@ -2,6 +2,8 @@
 
 ![Mhalexmd — event horizon terminal](assets/hangar.svg)
 
+![Personal cinema symbols](assets/cinema.svg)
+
 [Explore my repositories](https://github.com/Mhalexmd?tab=repositories) · [Start a conversation](https://github.com/Mhalexmd/Mhalexmd/issues)
 
 </div>
