@@ -1,8 +1,8 @@
 <div align="center">
 
-[![Mhalexmd — event horizon terminal](assets/hangar.svg)](https://github.com/Mhalexmd?tab=repositories)
+[![Mhalexmd — event horizon terminal](assets/hangar-motion.gif)](https://github.com/Mhalexmd?tab=repositories)
 
-[![Personal cinema symbols](assets/cinema.svg)](https://raw.githubusercontent.com/Mhalexmd/Mhalexmd/master/assets/cinema.svg)
+[![Personal cinema symbols](assets/cinema-motion.gif)](https://raw.githubusercontent.com/Mhalexmd/Mhalexmd/master/assets/cinema-motion.gif)
 
 [Explore my repositories](https://github.com/Mhalexmd?tab=repositories) · [Start a conversation](https://github.com/Mhalexmd/Mhalexmd/issues)
 
