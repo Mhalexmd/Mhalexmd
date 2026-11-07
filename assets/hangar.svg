@@ -1,5 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
 <title id="title">Mhalexmd — event horizon terminal</title><desc id="desc">A Linux-style terminal with a custom amber black-hole emblem, a dark event horizon and curved accretion rings.</desc>
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .cursor { animation: blink 1.4s steps(1,end) infinite; }
+  .accretion { animation: orbit 4.8s linear infinite; }
+  .halo { animation: breathe 6s ease-in-out infinite alternate; }
+}
+@keyframes blink { 0%,100% { opacity:1 } 60% { opacity:.15 } }
+@keyframes orbit { to { stroke-dashoffset:-100 } }
+@keyframes breathe { from { opacity:.55 } to { opacity:1 } }
+</style>
 <defs>
   <linearGradient id="disk" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#b84c18"/><stop offset=".4" stop-color="#ff9e42"/><stop offset=".65" stop-color="#ffe4a3"/><stop offset="1" stop-color="#dd601f"/></linearGradient>
   <radialGradient id="halo"><stop offset=".45" stop-color="#f59332" stop-opacity=".2"/><stop offset="1" stop-color="#f59332" stop-opacity="0"/></radialGradient>
@@ -16,21 +26,23 @@
 <text x="42" y="207" fill="#8b9daa" font-size="16">a signal beyond the event horizon.</text>
 <text x="42" y="261" fill="#8bd5ad" font-size="16">~ $<tspan fill="#cbd5df"> ls ./</tspan></text>
 <text x="42" y="291" fill="#8bb5df" font-size="16">repositories/   contributions/   .git/</text>
-<text x="42" y="341" fill="#8bd5ad" font-size="16">~ $</text><rect x="84" y="326" width="9" height="19" fill="#8bd5ad"/>
+<text x="42" y="341" fill="#8bd5ad" font-size="16">~ $</text><rect class="cursor" x="84" y="326" width="9" height="19" fill="#8bd5ad"/>
 </g>
 <path d="M770 80V322" stroke="#24313b"/>
 <g transform="translate(977 193)">
-<circle r="133" fill="url(#halo)"/>
+<circle class="halo" r="133" fill="url(#halo)"/>
 <g fill="none" stroke="#ffa84f" opacity=".15"><circle r="118" stroke-dasharray="2 9"/><path d="M-138 0H-122M122 0H138M0-138V-122M0 122V138"/></g>
 <g transform="rotate(-24)">
 <ellipse rx="104" ry="42" fill="none" stroke="url(#disk)" stroke-width="10" opacity=".4"/>
 <ellipse rx="98" ry="35" fill="none" stroke="url(#disk)" stroke-width="3"/>
 <ellipse rx="90" ry="29" fill="none" stroke="#ffd18b" stroke-width="1" opacity=".65"/>
+<ellipse class="accretion" rx="98" ry="35" pathLength="100" fill="none" stroke="#fff0c9" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 4 1 88"/>
 <circle r="58" fill="#06090d" stroke="#de7c30" stroke-width="2"/>
 <path d="M-64 0C-64-83 64-83 64 0" fill="none" stroke="url(#disk)" stroke-width="9"/>
 <path d="M-60-3C-54-74 54-74 60-3" fill="none" stroke="#ffe4af" stroke-width="2"/>
 <path d="M-104 0C-87 55 87 55 104 0" fill="none" stroke="url(#disk)" stroke-width="9"/>
 <path d="M-100 0C-78 43 78 43 100 0" fill="none" stroke="#fff0c9" stroke-width="2"/>
+<path class="accretion" d="M-100 0C-78 43 78 43 100 0" pathLength="50" fill="none" stroke="#fff5da" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4 1 88"/>
 <path d="M-95 9C-66 55 66 55 95 9" fill="none" stroke="#ffb65d" stroke-width="1" opacity=".7"/>
 </g>
 <text y="156" text-anchor="middle" fill="#c39565" font-family="Consolas,monospace" font-size="11" letter-spacing="4">MH / EVENT HORIZON</text>
