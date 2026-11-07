@@ -1,8 +1,14 @@
 <div align="center">
 
-[![Mhalexmd — event horizon terminal](assets/hangar-motion.gif)](https://github.com/Mhalexmd?tab=repositories)
+<a href="https://github.com/Mhalexmd?tab=repositories"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Mhalexmd/Mhalexmd/master/assets/hangar.svg">
+  <img src="./assets/hangar-live.svg" width="1200" alt="Mhalexmd — event horizon terminal">
+</picture></a>
 
-[![Personal cinema symbols](assets/cinema-motion.gif)](https://raw.githubusercontent.com/Mhalexmd/Mhalexmd/master/assets/cinema-motion.gif)
+<a href="https://raw.githubusercontent.com/Mhalexmd/Mhalexmd/master/assets/cinema-live.svg"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Mhalexmd/Mhalexmd/master/assets/cinema.svg">
+  <img src="./assets/cinema-live.svg" width="1200" alt="Personal cinema symbols">
+</picture></a>
 
 [Explore my repositories](https://github.com/Mhalexmd?tab=repositories) · [Start a conversation](https://github.com/Mhalexmd/Mhalexmd/issues)
 

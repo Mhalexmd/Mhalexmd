@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Mhalexmd — event horizon terminal</title><desc id="desc">A Linux-style terminal with a custom amber black-hole emblem, a dark event horizon and curved accretion rings.</desc>
+
+<defs>
+  <linearGradient id="disk" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#b84c18"/><stop offset=".4" stop-color="#ff9e42"/><stop offset=".65" stop-color="#ffe4a3"/><stop offset="1" stop-color="#dd601f"/></linearGradient>
+  <radialGradient id="halo"><stop offset=".45" stop-color="#f59332" stop-opacity=".2"/><stop offset="1" stop-color="#f59332" stop-opacity="0"/></radialGradient>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#ffffff" stroke-opacity=".018"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="378" rx="18" fill="#090e13" stroke="#303b45"/>
+<path d="M19 1H1181Q1199 1 1199 19V48H1V19Q1 1 19 1" fill="#182027"/>
+<path d="M1 48H1199" stroke="#303b45"/>
+<circle cx="28" cy="25" r="5" fill="#f07870"/><circle cx="48" cy="25" r="5" fill="#edc16d"/><circle cx="68" cy="25" r="5" fill="#72c497"/>
+<g font-family="Consolas,DejaVu Sans Mono,monospace">
+<text x="600" y="30" text-anchor="middle" fill="#9daab6" font-size="13">mhalexmd@event-horizon: ~</text>
+<text x="40" y="94" fill="#8bd5ad" font-size="17">mhalexmd@event-horizon<tspan fill="#718393">:</tspan><tspan fill="#8bb5df">~</tspan><tspan fill="#cbd5df">$ whoami</tspan></text>
+<text x="38" y="170" fill="#edf2f7" font-size="65" font-weight="bold" letter-spacing="-2">Mhalexmd<tspan fill="#ffb866">_</tspan></text>
+<text x="42" y="207" fill="#8b9daa" font-size="16">a signal beyond the event horizon.</text>
+<text x="42" y="261" fill="#8bd5ad" font-size="16">~ $<tspan fill="#cbd5df"> ls ./</tspan></text>
+<text x="42" y="291" fill="#8bb5df" font-size="16">repositories/   contributions/   .git/</text>
+<text x="42" y="341" fill="#8bd5ad" font-size="16">~ $</text><rect x="84" y="326" width="9" height="19" fill="#8bd5ad"><animate attributeName="opacity" values="1;1;0;0;1" dur="1.4s" repeatCount="indefinite"/></rect>
+</g>
+<path d="M770 80V322" stroke="#24313b"/>
+<g transform="translate(977 193)">
+<circle r="133" fill="url(#halo)"><animate attributeName="opacity" values=".45;1;.45" dur="4s" repeatCount="indefinite"/></circle>
+<g fill="none" stroke="#ffa84f" opacity=".15"><circle r="118" stroke-dasharray="2 9"/><path d="M-138 0H-122M122 0H138M0-138V-122M0 122V138"/></g>
+<g transform="rotate(-24)">
+<ellipse rx="104" ry="42" fill="none" stroke="url(#disk)" stroke-width="10" opacity=".4"/>
+<ellipse rx="98" ry="35" fill="none" stroke="url(#disk)" stroke-width="3"/>
+<ellipse rx="90" ry="29" fill="none" stroke="#ffd18b" stroke-width="1" opacity=".65"/>
+<ellipse rx="98" ry="35" pathLength="100" fill="none" stroke="#fff0c9" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 4 1 88"><animate attributeName="stroke-dashoffset" values="0;-100" dur="3s" repeatCount="indefinite"/></ellipse>
+<circle r="58" fill="#06090d" stroke="#de7c30" stroke-width="2"/>
+<path d="M-64 0C-64-83 64-83 64 0" fill="none" stroke="url(#disk)" stroke-width="9"/>
+<path d="M-60-3C-54-74 54-74 60-3" fill="none" stroke="#ffe4af" stroke-width="2"/>
+<path d="M-104 0C-87 55 87 55 104 0" fill="none" stroke="url(#disk)" stroke-width="9"/>
+<path d="M-100 0C-78 43 78 43 100 0" fill="none" stroke="#fff0c9" stroke-width="2"/>
+<path d="M-100 0C-78 43 78 43 100 0" pathLength="50" fill="none" stroke="#fff5da" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 4 1 88"><animate attributeName="stroke-dashoffset" values="0;-100" dur="3s" repeatCount="indefinite"/></path>
+<path d="M-95 9C-66 55 66 55 95 9" fill="none" stroke="#ffb65d" stroke-width="1" opacity=".7"/>
+</g>
+<text y="156" text-anchor="middle" fill="#c39565" font-family="Consolas,monospace" font-size="11" letter-spacing="4">MH / EVENT HORIZON</text>
+</g>
+<rect x="2" y="49" width="1196" height="329" rx="16" fill="url(#scan)"/>
+</svg>
