@@ -1,6 +1,7 @@
 // Dependency-free animated SVG. Node.js 24+.
 const fs = require('node:fs');
 const path = require('node:path');
+const { renderBlast } = require('./render-blast');
 const colors = ['#1a2638','#244b60','#267f8d','#35b9b5','#8bf0d4'];
 const levels = ['NONE','FIRST_QUARTILE','SECOND_QUARTILE','THIRD_QUARTILE','FOURTH_QUARTILE'];
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
@@ -66,6 +67,7 @@ async function main(){
   const calendar=demo?demoCalendar():await fetchCalendar(user,process.env.GH_TOKEN);
   const svg=render(calendar,{user,demo}),output=path.resolve(process.env.OUTPUT_DIR||'assets');
   fs.mkdirSync(output,{recursive:true});fs.writeFileSync(path.join(output,'plane.svg'),svg);
+  fs.writeFileSync(path.join(output, 'afterimage.svg'), renderBlast(calendar, {demo}));
   console.log(`Generated ${demo?'demo':'live'} flight for ${user}.`);
 }
 if(require.main===module) main().catch(e=>{console.error(e.message);process.exitCode=1;});

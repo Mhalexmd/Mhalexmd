@@ -8,21 +8,10 @@
 
 </div>
 
-## Contribution interceptor
+## Contribution cinema
 
-One year of contributions. One pixel pilot. Every active day is a target.
+![Animated contribution calendar](assets/afterimage.svg)
 
-![Animated pixel airplane firing at active days in Mhalexmd's contribution calendar](assets/plane.svg)
-
-<sub>The flight loops automatically. GitHub Actions refreshes the calendar every 6 hours; scheduled runs and image caching can delay updates. Hits only change this animation — your contributions stay intact.</sub>
-
-<details>
-<summary>Inside the cockpit</summary>
-
-The calendar comes from GitHub's contribution API. Activity intensity sets the target color; the plane stops at each week, fires at active days, and clears the board before its next run. This animated SVG plays directly in a GitHub README without scripts or an external image service.
-
-See [setup and local preview](SETUP.md).
-
-</details>
+[Watch the original arcade flight](assets/plane.svg) | [Behind the animation](SETUP.md)
 
 <div align="center"><sub>END OF OUTPUT · THE NEXT COMMIT IS A NEW SIGNAL.</sub></div>
